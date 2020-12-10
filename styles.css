@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('/images/poet.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    color: #331E36;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  textarea {
+    font-size: larger;
+    width: 55%;
+    height: 18vh;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    border-color: black;
+    border-radius: 0.3rem;
+  }
+  
+  #btn-translate {
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #FFD166;
+    display: block;
+    margin: 1.8rem auto;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  .translation-div {
+    font-size: larger;
+    font-weight: bolder;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  #output-text {
+    background-color:rgba(238, 233, 221, 0.9);
+    font-size: larger;
+    width: 55%;
+    height: 18vh;
+    margin: auto;
+    padding: 1rem;
+    border-color: black;
+    border-radius: 0.5rem;
+    margin-bottom: 2.2rem;
+  }
+  
+  footer {
+    font-size: large;
+    font-weight: bolder;
+    text-align:center;
+    color: #331E36;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    display: block;
+  }
+  
+  #footer-txt h1,p {
+    padding: 0rem; 
+  }
+  
