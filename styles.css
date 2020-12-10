@@ -1,13 +1,14 @@
+
 * {
     box-sizing: border-box;
-  }
+}
   
   body {
     background-image: url('/images/poet.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
-    color: #331E36;
+    color: rgb(50, 0, 50);
   }
   
   h1 {
@@ -60,7 +61,6 @@
     font-size: large;
     font-weight: bolder;
     text-align:center;
-    color: #331E36;
     position: relative;
     width: 100%;
     padding: 2rem;
